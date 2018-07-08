@@ -147,6 +147,9 @@ ul li{
 	text-align: center;
 	height: 14px;
 }
+.nav>ul>li:hover{
+	font-weight: bold;
+}
 .nav>ul>li>a{
 	color: #5a5542;
 	font-size: 14px;
@@ -161,6 +164,7 @@ ul li{
 	height: 450px;
 	overflow: hidden;
 	position: relative;
+	cursor: pointer;
 }
 .banner>img{
 	height: 450px;
@@ -382,6 +386,9 @@ ul li{
 	padding-right: 6px;
 	border-right: solid 1px #797a8e;
 	
+}
+.about>ul>li:last-child{
+	border-right: 0;
 }
 .about>ul>li>a{
 	color: #6b6b6b;

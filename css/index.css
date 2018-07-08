@@ -163,22 +163,30 @@ ul li{
 	overflow: hidden;
 	position: relative;
 }
-.circle>li{
+.banner>img{
+	height: 450px;
+}
+.circle{
+	height: 16px;
+	z-index: 1;
+	position: absolute;
+	bottom: 25px;
+	left: 566px;
+}
+.circle>a{
 	width: 16px;
 	height: 16px;
 	background: #fff;
 	border-radius: 50%;
-	position: absolute;
-	bottom: 24px;
 	float: left;
-	margin-right: 10px;
+	margin-left: 10px;
 }
-.active{
+.circle>.active{
 	width: 16px;
 	height: 16px;
-	border: solid 1px #000;
+	border: solid 1px #fff;
 	border-radius: 50%;
-	
+	background: none;
 }
 
 

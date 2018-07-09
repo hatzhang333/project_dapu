@@ -96,7 +96,7 @@ ul li{
 	right: 8px;
 	bottom: 11px;
 }
-/*中间*/
+
 .login{
 	width: 70px;
 	height: 30px;
@@ -141,6 +141,7 @@ ul li{
 .nav>ul>li:last-child{
 	border-right: 0;
 }
+/*中间*/
 .login_form{
 	min-height: 410px;
 	background: url(../img/21.jpg) no-repeat ;

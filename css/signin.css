@@ -331,7 +331,6 @@ ul li{
 .footer{
 	min-height: 128px;
 }
-
 .about{
 	height: 11px;
 	padding-left: 400px;
@@ -343,7 +342,6 @@ ul li{
 	padding-left: 6px;
 	padding-right: 6px;
 	border-right: solid 1px #797a8e;
-	
 }
 .about>ul>li:last-child{
 	border-right: 0;

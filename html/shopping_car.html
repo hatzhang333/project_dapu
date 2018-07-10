@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/shopping_car.css"/>
+	</head>
+	<body>
+		<div class="contain">
+			<!--头部-->
+				<div class="header">
+					<a href="#"><img src="https://activity.dapuimg.com/2018022700_logo.jpg"/></a>
+				</div>
+			<!--中间购物清单-->
+			<div class="main">
+				<div class="content">
+					<!--明细-->
+					<div class="shop_list">
+						<div class="title">
+							<h4>我的购物车</h4>
+							<a href="#">清空购物车</a>
+						</div>
+						<div class="goods_list">
+							<form id="form_cart" action="" method="post">
+								<table class="mylist" border="1" cellspacing="" cellpadding="">
+									<tr class="form_header">
+										<th width="5%"><input type="checkbox" class=""/></th>
+										<th width="40%">商品信息</th>
+										<th width="10%">商品单价</th>
+										<th width="15%">商品数量</th>
+										<th width="10%">小计</th>
+										<th width="10%">操作</th>
+									</tr>
+									<tr class="form_center">
+										<td width="5%" class="rows_1">
+											<input type="checkbox" class=""/>
+										</td>
+										<td width="40%" class="rows_2">
+											<img src="http://p1.dapuimg.com/public/images/0e/c8/14/f70a92191c76d74f652cfc0bc0c08962.jpg?1529407542#h"/>
+											<a href="#">老粗布薄被</a>
+											<p>颜色：粉色格子、尺寸：200cm×230cm</p>
+										</td>
+										<td width="10%">￥599</td>
+										<td width="15%">
+											<div class="count">
+												<button class="del">-</button>
+												<input type="tel" name="goods_count" id="goods_count" value="1" />
+												<button class="add">+</button>
+											</div>
+										</td>
+										<td width="10%">￥599</td>
+										<td width="10%"><a href="#" class="del_btn">删除</a></td>
+									</tr>
+								</table>
+							</form>
+						</div>
+					</div>
+				</div>
+				<!--结账单-->
+				<div class="bill">
+					<div class="discounts">
+						<h3>已享受的促销优惠:</h3>
+						<p>购物满88元包邮</p>
+					</div>
+					<p class="init_money">原始金额：￥1398</p>
+					<p class="dis_money">优惠金额：￥0</p>
+					<p class="total_money"><b>商品总金额(不含运费)：</b>￥1398</p>
+					<a class="continue_btn" href="#">继续购物</a>
+					<a class="pay_btn" href="#">去结算</a>
+				</div>
+			</div>
+			<!--底部-->
+			<div class="footer">
+				<div class="about">
+						<ul>
+							<li><a href="#">关于大朴</a></li>
+							<li><a href="#">帮助中心</a></li>
+							<li><a href="#">联系我们</a></li>
+							<li><a href="#">手机大朴</a></li>
+						</ul>
+					</div>
+					<div class="copy">
+						<p>Copyright © 2013-2018 dapu.com 北京大朴至向家居设计有限公司  京ICP备12027522号 京ICP证130030号</p>
+					</div>
+					<div class="plice">
+						<img src="../img/images/pic_27.jpg"/>
+						<span>京公网安备 11010502030202号</span>
+					</div>
+			</div>
+		</div>
+	</body>
+</html>

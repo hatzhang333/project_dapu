@@ -165,6 +165,8 @@ ul li{
 .goods_list{
 	height: 512px;
 	border: solid 1px #dcdcdc;
+	position: relative;
+	left: 0;
 }
 .goods_picbox{
 	position: relative;
@@ -188,19 +190,22 @@ ul li{
 	position: absolute;
 	left: 0;
 	top: 0;
+	display: none;
 }
 .maxbox{
 	width: 250px;
 	height: 250px;
 	position: absolute;
 	left: 400px;
-	top: 0;
+	top: 15px;
 	overflow: hidden;
 	display: none;
+	z-index: 1;
 }
 .maxbox>img{
 	width: 700px;
 	height: 700px;
+	position: absolute;
 }
 .xsbox{
 	margin-left: 24px;
@@ -708,13 +713,13 @@ ul li{
 .home_page{
 	position: relative;
 	margin-bottom: 5px;
+	width: 40px;
+	height: 40px;
 }
 .home{
 	width: 40px;
 	height: 40px;
 	background: #be3636;
-	font-size: 12px;
-	color: #fff;
 	text-align: center;
 	line-height: 40px;
 	position: absolute;
@@ -722,9 +727,15 @@ ul li{
 	display: none;
 	font-weight: bold;
 }
+.home>a{
+	font-size: 12px;
+	color: #fff;
+}
 .myorder{
 	position: relative;
 	margin-bottom: 5px;
+	width: 40px;
+	height: 40px;
 }
 .order{
 	width: 40px;
@@ -742,6 +753,8 @@ ul li{
 .shopping_car{
 	position: relative;
 	margin-bottom: 5px;
+	width: 40px;
+	height: 40px;
 }
 .car{
 	width: 40px;
@@ -759,6 +772,8 @@ ul li{
 .app{
 	position: relative;
 	margin-bottom: 5px;
+	width: 40px;
+	height: 40px;
 }
 ._app{
 	width: 40px;
@@ -776,6 +791,8 @@ ul li{
 .service{
 	position: relative;
 	margin-bottom: 5px;
+	width: 40px;
+	height: 40px;
 }
 .service>a>img{
 	width: 40px;
@@ -796,6 +813,8 @@ ul li{
 }
 .goTop{
 	position: relative;
+	width: 40px;
+	height: 40px;
 }
 .go{
 	width: 40px;

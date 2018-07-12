@@ -124,6 +124,9 @@ ul li{
 	padding-left: 15px;
 	padding-right: 15px;
 }
+.login>ul>li>a:hover{
+	color: #ccc;
+}
 .login>ul>li>a{
 	font-size: 12px;
 	color: #fff;
@@ -289,6 +292,9 @@ ul li{
 	position: relative;
 	overflow: hidden;
 }
+.new_pro>ul>li:hover .price {
+	bottom: 0;
+}
 .price{
 	width: 398px;
 	height: 55px;
@@ -299,7 +305,8 @@ ul li{
 	position: absolute;
 	padding-top: 14px;
 	box-sizing: border-box;
-	
+	transition: all .4s;
+	bottom: -55px;
 }
 .new_pro>ul>li>a>img{
 	width: 398px;
@@ -321,9 +328,13 @@ ul li{
 	text-align: center;
 	background: #fff;
 	position: absolute;
-	/*bottom: 0;*/
 	font-size: 12px;
 	color: #000;
+	transition: all .4s;
+	bottom: -55px;
+}
+.sale_top>ul>li:hover .price_bar{
+	bottom: 0;
 }
 .sale_top>ul>li:nth-child(1)>a>img{
 	width: 238px;
@@ -386,9 +397,13 @@ ul li{
 	text-align: center;
 	background: #fff;
 	position: absolute;
-	/*bottom: 0;*/
 	font-size: 12px;
 	color: #000;
+	transition: all .4s;
+	bottom: -55px;
+}
+.sale_bottom>ul>li:hover .priceBar{
+	bottom:0;
 }
 .sale_bottom>ul>li:nth-child(5n){
 	margin-right: 0;
@@ -466,10 +481,13 @@ ul li{
 	position: fixed;
 	top: 20px;
 	right: 0;
+	cursor: pointer;
 }
 .home_page{
 	position: relative;
 	margin-bottom: 5px;
+	width: 40px;
+	height: 40px;
 }
 .home{
 	width: 40px;
@@ -487,6 +505,8 @@ ul li{
 .myorder{
 	position: relative;
 	margin-bottom: 5px;
+	width: 40px;
+	height: 40px;
 }
 .order{
 	width: 40px;
@@ -504,6 +524,8 @@ ul li{
 .shopping_car{
 	position: relative;
 	margin-bottom: 5px;
+	width: 40px;
+	height: 40px;
 }
 .car{
 	width: 40px;
@@ -521,6 +543,8 @@ ul li{
 .app{
 	position: relative;
 	margin-bottom: 5px;
+	width: 40px;
+	height: 40px;
 }
 ._app{
 	width: 40px;
@@ -538,6 +562,8 @@ ul li{
 .service{
 	position: relative;
 	margin-bottom: 5px;
+	width: 40px;
+	height: 40px;
 }
 .service>a>img{
 	width: 40px;
@@ -558,6 +584,8 @@ ul li{
 }
 .goTop{
 	position: relative;
+	width: 40px;
+	height: 40px;
 }
 .go{
 	width: 40px;

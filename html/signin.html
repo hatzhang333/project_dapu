@@ -63,6 +63,7 @@
 								图片码：<input type="text" value="" class="picinp"/>
 								<input type="text" class="num_random" value="" />
 								<button>获取短信码</button>
+								<span class="tips4">图片验证码有误</span>
 							</div>
 							<p class="tips2">请先输入图片验证码的计算结果，再点击获取短信码</p>
 							<div class="msg_code">
@@ -71,9 +72,9 @@
 							<div class="pwd">
 								密码：<input type="password" value="" class="pwdinp"/>
 								<div class="pwd_tip">
-									<span></span>
-									<span></span>
-									<span></span>
+									<span class="danger"></span>
+									<span class="medium"></span>
+									<span class="safe"></span>
 								</div>
 								<div class="strength">
 										<span>弱</span>
@@ -83,14 +84,15 @@
 							</div>
 							<div class="confirm_pwd">
 								确认密码：<input type="password" class="pwd_inp" value="" />
+								<span class="tips3">2次输入的密码不一致</span>
 							</div>
 							<div class="agreen">
 								<input type="checkbox" value="" />
 								<a href="#">同意注册协议<span>《大朴用户协议》</span></a>
 							</div>
 							<div class="sub">
-								<input type="submit" name="" id="" value="注册" />
-								<span>我已经注册，现在就<a href="#">登录</a></span>
+								<input type="button" name="" id="sign_btn" value="注册" />
+								<span>我已经注册，现在就<a href="login.html">登录</a></span>
 							</div>
 						</form>
 					</div>
@@ -120,3 +122,5 @@
 		</div>
 	</body>
 </html>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/signin.js"></script>

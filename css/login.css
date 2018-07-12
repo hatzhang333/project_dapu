@@ -177,6 +177,11 @@ ul li{
 .password{
 	margin-top: 20px;
 }
+.name_tips,.pass_tips{
+	font-size: 12px;
+	color: #ae1114;
+	display: none;
+}
 .username,.pwd{
 	width: 155px;
 	height: 28px;
@@ -218,6 +223,10 @@ ul li{
 .selector>a{
 	font-size: 12px;
 	color: #696564;
+}
+.selector>a:hover{
+	color: #92775a;
+	border-bottom: solid 1px #92775a;
 }
 .selector>a:nth-child(1){
 	padding-right: 5px;

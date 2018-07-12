@@ -34,7 +34,7 @@ var details = (function() {
 				this.onmousemove = function(e) {
 					var e = e || event;
 					var l = e.clientX - mid_box.offsetLeft - goodsList.offsetLeft - fiter.offsetWidth / 2;
-					var t = e.clientY - mid_box.offsetTop - goodsList.offsetTop - fiter.offsetHeight / 2;
+					var t = e.clientY - mid_box.offsetTop - goodsList.offsetTop - fiter.offsetHeight / 2 + document.documentElement.scrollTop;
 
 					if(l > mid_box.offsetWidth - fiter.offsetWidth) {
 						l = mid_box.offsetWidth - fiter.offsetWidth;
